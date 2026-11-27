@@ -10,7 +10,7 @@ button{transition:background-color .2s ease,color .2s ease,border-color .2s ease
 button:active{transform:translateY(1px)}
 :focus-visible{outline:2px solid #9b6d65;outline-offset:3px}
 header{position:sticky;top:0;z-index:30}
-header>div{max-width:1440px!important}
+header>div{max-width:none!important;padding-inline:clamp(24px,6vw,96px)}
 header nav a{position:relative;padding-block:8px}
 header nav a[aria-current=page]::after{position:absolute;right:0;bottom:0;left:0;height:1px;background:#713b43;content:""}
 .serif{letter-spacing:-.025em}
